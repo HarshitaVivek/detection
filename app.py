@@ -93,6 +93,6 @@ if uploaded_file != None:
     
     # Show the results
     st.write(f"The plant {result['status']} with {result['prediction']} prediction.")
-
+load_model()
     
         
